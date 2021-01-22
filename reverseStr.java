@@ -12,5 +12,5 @@ public void reverseString(char[] s) {
        s[index] = s[last];
        s[last] = temp;
             
-        reverse(++index, --last, s);
+       reverse(++index, --last, s);
 }
